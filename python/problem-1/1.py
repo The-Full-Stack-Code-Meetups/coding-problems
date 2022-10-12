@@ -23,6 +23,11 @@ if __name__ == "__main__":
     eCommerceOrders = LogDataStructure()
     # add order ids
 
+
+
+
+
+
     for i in range(1, 101):  # add log from 1 to 100
         eCommerceOrders.record(i)
 
