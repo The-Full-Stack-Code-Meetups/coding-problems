@@ -23,4 +23,4 @@ Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/shortestPath.js)
 <br>
-Solution for PY: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-2/shortest_path.py)
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-2/shortest_path.py)
