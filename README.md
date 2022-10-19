@@ -20,3 +20,5 @@ Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
  This problem was asked by Quora.
  Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
  For example, given /usr/bin/../bin/./scripts/../, return /usr/bin/.
+
+Solution for JS [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/shortestPath.js)
