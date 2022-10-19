@@ -21,4 +21,6 @@ Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
  Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
  For example, given /usr/bin/../bin/./scripts/../, return /usr/bin/.
 
-Solution for JS [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/shortestPath.js)
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/shortestPath.js)
+<br>
+Solution for PY: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-2/shortest_path.py)
