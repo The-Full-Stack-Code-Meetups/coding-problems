@@ -24,3 +24,14 @@ Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/shortestPath.js)
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-2/shortest_path.py)
+<h2>Problem 3</h2>
+
+This problem was asked by Square.
+Given a string and a set of characters, return the shortest substring containing all the characters in the set.
+
+For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
+
+If there is no substring containing all the characters in the set, return null.
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-3/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-3/script.py)
