@@ -32,6 +32,7 @@ Given a string and a set of characters, return the shortest substring containing
 For example, given the string "figehaeci" and the set of characters {a, e, i}, you should return "aeci".
 
 If there is no substring containing all the characters in the set, return null.
+
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-3/script.js)
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-3/script.py)
