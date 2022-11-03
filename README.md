@@ -16,7 +16,7 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-1/1.py)
 
-<h2> Problem 2 </h2>
+<h2>Problem 2</h2>
  This problem was asked by Quora.
  Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
  For example, given /usr/bin/../bin/./scripts/../, return /usr/bin/.
@@ -44,4 +44,14 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-4/script.py)
 
+<h2>Problem 5</h2>
+This problem was asked by Facebook.
+Given an array of numbers representing the stock prices of a company in chronological order, write a function that calculates the maximum profit you could have made from buying and selling that stock once. You must buy before you can sell it.
+
+For example, given [9, 11, 8, 5, 7, 10], you should return 5, since you could buy the stock at 5 dollars and sell it at 10 dollars.
+
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-5/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-5/script.py)
 
