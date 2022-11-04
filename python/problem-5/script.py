@@ -7,14 +7,13 @@ since you could buy the stock at 5 dollars and sell it at 10 dollars."""
 
 
 def max_profit(stocks):
-    potential_profits = []
+    maximum_profit = 0
     for stock in range(len(stocks)):
-        current_stock = stocks[stock]
-        remainder_stocks = stocks[stock::]
-        max_stock = max(remainder_stocks)
-        profit = max_stock - current_stock
-        potential_profits.append(profit)
-    return max(potential_profits)
+        profit = max(stocks[stock::]) - stocks[stock]
+        if profit > maximum_profit:
+            maximum_profit = profit
+
+    return maximum_profit
 
 
-max_profit([9, 11, 8, 5, 7, 10])
+print(max_profit([9, 11, 8, 5, 7, 10]))
