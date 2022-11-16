@@ -17,7 +17,7 @@ def substring(text, characters):
 
     # Start traversing the string
 
-    count = 0  # count of characters
+    count = 0
 
     for j in range(0, len(text)):
 
@@ -35,9 +35,9 @@ def substring(text, characters):
         if count == len(characters):
 
             # Try to minimize the window
-
+            # hash string length in 256 -<  for each character in ASCI.
+            # we remove unnecessary letters(reducing the count of the letter)
             while hash_str[ord(text[start])] > hash_pat[ord(text[start])] or hash_pat[ord(text[start])] == 0:
-
                 if hash_str[ord(text[start])] > hash_pat[ord(text[start])]:
                     hash_str[ord(text[start])] -= 1
 
