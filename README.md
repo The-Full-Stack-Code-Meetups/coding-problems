@@ -131,4 +131,32 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-11/script.py)
 
+<h2>Problem 12</h2>
+
+This problem was asked by Google.
+
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+
+For example, given the string acbbac, return b. Given the string abcdef, return null.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-12/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-12/script.py)
+
+
+<h2>Problem 13</h2>
+
+This problem was asked by Google.
+
+The power set of a set is the set of all its subsets. Write a function that, given a set, generates its power set.
+
+For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2}, {1, 3}, {2, 3}, {1, 2, 3}}.
+
+You may also use a list or array to represent a set.
+
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-13/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-13/script.py)
+
 
