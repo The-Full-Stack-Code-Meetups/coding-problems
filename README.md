@@ -141,7 +141,7 @@ For example, given the string acbbac, return b. Given the string abcdef, return 
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-12/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-12/script.py)
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-12/scipt.py)
 
 
 <h2>Problem 13</h2>
