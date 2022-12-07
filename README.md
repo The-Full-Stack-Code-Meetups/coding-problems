@@ -159,4 +159,38 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-13/script.py)
 
+<h2>Problem 14</h2>
+
+This question was asked by Riot Games.
+
+Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
+
+record(timestamp): records a hit that happened at timestamp
+total(): returns the total number of hits recorded
+range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
+Follow-up: What if our system has limited memory?
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-14/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-14/script.py)
+
+<h2>Problem 15</h2>
+This question was asked by Apple.
+
+Given a binary tree, find a minimum path sum from root to a leaf.
+
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-15/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-15/script.py)
+
 
