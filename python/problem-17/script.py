@@ -17,4 +17,4 @@ def node_list(arr):
     print(arr)
 
 
-node_list([1, 2, 3, 4, 5])
+node_list([1, 2, 3, 4])
