@@ -181,6 +181,7 @@ Given a binary tree, find a minimum path sum from root to a leaf.
 
 For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
 
+```javascript
   10
  /  \
 5    5
@@ -189,8 +190,62 @@ For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
        /
      -1
 
+```
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-15/script.js)
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-15/script.py)
+
+<h2>Problem 16</h2>
+
+This problem was asked by Amazon.
+
+Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+
+For example, given the following matrix:
+
+[
+ [1,  2,  3,  4,  5],
+ [6,  7,  8,  9,  10],
+ [11, 12, 13, 14, 15],
+ [16, 17, 18, 19, 20]
+]
+You should print out the following:
+
+1
+2
+3
+4
+5
+10
+15
+20
+19
+18
+17
+16
+11
+6
+7
+8
+9
+14
+13
+12
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-16/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-16/script.py)
+
+<h2>Problem 17</h2>
+
+This problem was asked by Google.
+
+Given the head of a singly linked list, swap every two nodes and return its head.
+
+For example, given 1 -> 2 -> 3 -> 4, return 2 -> 1 -> 4 -> 3.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-17/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-17/script.py)
 
 
