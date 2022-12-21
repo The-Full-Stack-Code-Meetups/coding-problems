@@ -248,4 +248,26 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-17/script.py)
 
+<h2>Problem 18</h2>
+This problem was asked by Microsoft.
+Given an array of positive integers, divide the array into two subsets such that the difference between the sum of the subsets is as small as possible.
+For example, given [5, 10, 15, 20, 25], return the sets {10, 25} and {5, 15, 20}, which has a difference of 5, which is the smallest possible difference.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-18/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-18/script.py)
+
+<h2>
+Problem 19
+</h2>
+
+This problem was asked by Google.
+Given an array of strictly the characters 'R', 'G', and 'B', segregate the values of the array so that all the Rs come first, the Gs come second, and the Bs come last. You can only swap elements of the array.
+Do this in linear time and in-place.
+For example, given the array ['G', 'B', 'R', 'R', 'B', 'R', 'G'], it should become ['R', 'R', 'R', 'G', 'G', 'B', 'B'].
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-19/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-19/script.py)
+
 
