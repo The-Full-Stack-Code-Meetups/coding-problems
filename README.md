@@ -271,3 +271,13 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-19/script.py)
 
 
+<h2>
+Problem 21
+</h2>
+
+There is an array of non-negative integers. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays, find which element is missing in the second array.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-21/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-21/script.py)
+
