@@ -270,9 +270,21 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-19/script.py)
 
+
+
 <h2>
+Problem 20
+</h2>
+Fibonacci
+By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two.
 
+For example, the first ten Fibonacci numbers are:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+Write a function that accepts a number and returns the number at that position in the fibonnaci sequence.
 
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-20/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-20/script.py)
 
 
 <h2>
