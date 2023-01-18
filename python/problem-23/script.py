@@ -1,37 +1,16 @@
-'''This problem was asked by Bloomberg.
-
-Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
-
-For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b to c, and c to d.
-
-Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
-'''
+def is_palindrome(word):
+    return word == word[::-1]
 
 
-def check_mapping(s1, s2):
-    if len(s1) != len(s2):
-        return 0
+def all_indices(list_strings):
+    result = []
+    n = len(list_strings)
 
+    for i in range(n):
+        for j in range(n):
+            if is_palindrome(list_strings[i]+list_strings[j]) and list_strings[i] != list_strings[j]:
+                result.append([i,j])
+            else:
+                continue
 
-    chars_map = {}
-    # escaping duplicates
-    chars_set = set()
-
-    for i in range(len(s1)):
-        char1 = s1[i]
-        char2 = s2[i]
-
-        if char1 in chars_map:
-            if chars_map[char1] != char2:
-                return False
-        else:
-            if char2 in chars_set:
-                return False
-
-            chars_map[char1] = char2
-            chars_set.add(char2)
-
-    return True
-
-
-check_mapping('abc', 'bcd')
+    return result
