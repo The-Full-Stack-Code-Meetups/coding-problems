@@ -308,3 +308,30 @@ Given a number, find the next higher number using only the digits in the given n
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-22/script.js)
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-21/script.py)
+
+<h2>Problem 23</h2>
+This problem was asked by Airbnb.
+
+Given a list of words, find all pairs of unique indices such that the concatenation of the two words is a palindrome.
+
+For example, given the list ["code", "edoc", "da", "d"], return [[0, 1], [1, 0], [2, 3]].
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-23/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-23/script.py)
+
+<h2>Problem 24</h2>
+
+This problem was asked by Bloomberg.
+
+Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
+
+For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b to c, and c to d.
+
+Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-24/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-24/script.py)
+
+
