@@ -1,46 +1,38 @@
-/* Problem 14 
- * This question was asked by Riot Games.
-
-Design and implement a HitCounter class that keeps track of requests (or hits). It should support the following operations:
-
-record(timestamp): records a hit that happened at timestamp
-total(): returns the total number of hits recorded
-range(lower, upper): returns the number of hits that occurred between timestamps lower and upper (inclusive)
-Follow-up: What if our system has limited memory?
- * */
-
 class HitCounter {
-    /* The HitCounter constructor */
-
-	constructor(hits, currHit){
-  this.hits = hits;
-  this.currHit = currHit;
-
+  /**
+   * HitCounter constructor
+   */
+  constructor() {
+    this.timestamps = [];
   }
 
-    /* Recording each timestamp and hit */
-	record(timestamp) {
-  this.hits[this.currHit] = timestamp;
-  this.currHit += 1;
+  /**
+   * Records a hit that happened at timestamp
+   * @param  {number} timestamp
+   * @return {void}
+   */
+  record(timestamp) {
+    this.timestamps.push(timestamp);
   }
-  
-  total(){
-  return this.currHit;
-  }
-  
-/* Returning the range of hits between a certain interval */
 
+  /**
+   * Returns total number of hits recorded
+   * @return {number}
+   */
+  total() {
+    return this.timestamps.length;
+  }
+
+  /**
+   * Returns number of hits between timestamps (inclusive)
+   * @param  {number} lower
+   * @param  {number} upper
+   * @return {number}
+   */
   range(lower, upper) {
-  return this.hits[upper] - this.hits[lower];
+    // Time Complexity: O(N)
+    return this.timestamps.reduce((total, curr) => {
+      return curr <= upper && curr > lower ? total + 1 : total + 0;
+    }, 0);
   }
-
 }
-
-let counter = new HitCounter([], 0);
-
-counter.record(5);
-counter.record(6);
-counter.record(8);
-
-
-console.log(counter.range(0, 2))
