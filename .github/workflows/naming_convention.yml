@@ -1,0 +1,50 @@
+name: check file naming convention
+# renames any files that are not following the convention
+on:
+  push:
+  
+  schedule:
+        #     # runs the cron job at 21:00 each Wednesday (after our meetings) UTC Time (23:00 EET)
+         - cron: '00 21 * * 3'
+
+
+jobs:
+  rename-incorrect-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+        with:
+          #specified as a secret inside the repository
+          token: ${{ secrets.AUTOMATION_TOKEN }}
+          branch: main
+      
+      - name: python setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10.6'
+      
+      - name: install packages
+        run: |
+          cd /home/runner/work/coding-problems/coding-problems/.github/workflows/requirements
+          pip install -r packages.txt
+      
+      - name: execute python script
+        run: |
+          cd /home/runner/work/coding-problems/coding-problems/.github/scripts
+          python3 rename_automation.py ${{ github.workspace }}    
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -m "bot: renaming file")
+
+      - name: push changes
+        uses: ad-m/github-push-action@master
+        with:
+          # specified inside the repository
+          token: ${{ secrets.AUTOMATION_TOKEN }}
+          branch: main
