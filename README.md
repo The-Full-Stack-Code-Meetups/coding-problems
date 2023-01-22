@@ -14,16 +14,16 @@ You should be as efficient with time and space as possible.
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/tree/main/js/problem-1/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-1/1.py)
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-1/script.py)
 
 <h2>Problem 2</h2>
  This problem was asked by Quora.
  Given an absolute pathname that may have . or .. as part of it, return the shortest standardized path.
  For example, given /usr/bin/../bin/./scripts/../, return /usr/bin/.
 
-Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/shortestPath.js)
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-2/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-2/shortest_path.py)
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-2/script.py)
 <h2>Problem 3</h2>
 
 This problem was asked by Square.
@@ -141,7 +141,7 @@ For example, given the string acbbac, return b. Given the string abcdef, return 
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-12/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-12/scipt.py)
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-12/script.py)
 
 
 <h2>Problem 13</h2>
