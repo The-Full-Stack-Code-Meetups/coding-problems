@@ -27,7 +27,7 @@ jobs:
       
       - name: install packages
         run: |
-          cd /home/runner/work/coding-problems/coding-problems/.github/workflows/requirements
+          cd /home/runner/work/coding-problems/coding-problems/.github/requirements
           pip install -r packages.txt
       
       - name: execute python script
