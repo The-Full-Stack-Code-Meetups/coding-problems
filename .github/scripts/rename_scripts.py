@@ -2,7 +2,7 @@
 # examples: script.py, script.js
 
 import os, sys
-from problems_folders import js_problems, python_problems
+from scripts_location import js_problems, python_problems
 
 def main(path):
     for root, dirs, files in os.walk(path):

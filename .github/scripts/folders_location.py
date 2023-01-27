@@ -1,0 +1,1 @@
+folders = ['/home/runner/work/coding-problems/coding-problems/python', '/home/runner/work/coding-problems/coding-problems/js']
