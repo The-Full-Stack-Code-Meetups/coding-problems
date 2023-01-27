@@ -1,5 +1,7 @@
-name: check file naming convention
-# renames any files that are not following the convention
+name: check naming convention
+# renames any files or folders that are not following the convention
+# convention for folders --> problem-{digit}
+# convention for files --> script.{file_exention}
 on:
   push:
   
@@ -9,7 +11,7 @@ on:
 
 
 jobs:
-  rename-incorrect-files:
+  rename-incorrect-entries:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,58 +32,18 @@ jobs:
           cd /home/runner/work/coding-problems/coding-problems/.github/requirements
           pip install -r packages.txt
       
-      - name: execute python script
+      - name: execute rename_scripts.py and rename_folders.py
         run: |
           cd /home/runner/work/coding-problems/coding-problems/.github/scripts
           python3 rename_scripts.py ${{ github.workspace }}    
+          python3 rename_folders.py ${{ github.workspace }}
 
-      - name: commit files
+      - name: commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -m "bot: renaming file")
-
-      - name: push changes
-        uses: ad-m/github-push-action@master
-        with:
-          # specified inside the repository
-          token: ${{ secrets.AUTOMATION_TOKEN }}
-          branch: main
-    
-  rename-incorrect-folders:
-    runs-on: ubuntu-latest
-    needs: rename-incorrect-files
-
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v3
-        with:
-          #specified as a secret inside the repository
-          token: ${{ secrets.AUTOMATION_TOKEN }}
-          branch: main
-      
-      - name: python setup
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10.6'
-      
-      - name: install packages
-        run: |
-          cd /home/runner/work/coding-problems/coding-problems/.github/requirements
-          pip install -r packages.txt
-      
-      - name: execute python script
-        run: |
-          cd /home/runner/work/coding-problems/coding-problems/.github/scripts
-          python3 rename_folders.py ${{ github.workspace }}    
-
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -m "bot: renaming folder")
 
       - name: push changes
         uses: ad-m/github-push-action@master
