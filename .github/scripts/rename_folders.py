@@ -5,7 +5,7 @@ import os, sys, re
 from folders_location import folders
 
 regex = 'problem-(\d+)'
-
+ 
 def main(path):
     for root, dirs, files in os.walk(path):
         if root in folders:
