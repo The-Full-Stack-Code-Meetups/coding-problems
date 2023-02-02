@@ -15,37 +15,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           #specified as a secret inside the repository
           token: ${{ secrets.AUTOMATION_TOKEN }}
           branch: main
-      
-      - name: python setup
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10.6'
-      
-      - name: install packages
+
+      - name: Install packages
         run: |
           cd /home/runner/work/coding-problems/coding-problems/.github/requirements
           pip install -r packages.txt
       
-      - name: execute rename_scripts.py and rename_folders.py
+      - name: Execute rename_scripts.py and rename_folders.py
         run: |
           cd /home/runner/work/coding-problems/coding-problems/.github/scripts
           python3 rename_scripts.py ${{ github.workspace }}    
           python3 rename_folders.py ${{ github.workspace }}
 
-      - name: commit changes
+      - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -m "bot: renaming file")
 
-      - name: push changes
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           # specified inside the repository
