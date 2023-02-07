@@ -393,6 +393,41 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-28/script.py)
 
+<h2>Problem 29</h2>
+Problem 29
+Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet.
+
+For example:
+
+A -> 1
+B -> 2
+C -> 3
+...
+Z -> 26
+AA -> 27
+AB -> 28 
+...
+
+Example 1:
+
+Input: columnNumber = 1
+Output: "A"
+
+Example 2:
+
+Input: columnNumber = 28
+Output: "AB"
+
+Example 3:
+
+Input: columnNumber = 701
+Output: "ZY"
+                                                                                                                          
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-29/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-29/script.js)
+  
+
 
 <h2>Problem 30</h2>
 
