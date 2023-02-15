@@ -453,3 +453,15 @@ The array-form of an integer num is an array representing its digits in left to 
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-31/script.py)
 
+
+<h2>Problem 32</h2>
+The array-form of an integer num is an array representing its digits in left to right order.
+
+ Given num, the array-form of an integer, and an integer k, return the array-form of the integer num + k.
+
+ Ex.: number([1,2,0,0], 34) //["1", "2", "3", "4"]
+
+ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-32/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-32/script.py)
+
