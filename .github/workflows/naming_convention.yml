@@ -6,13 +6,18 @@ on:
   push:
   
   schedule:
-        #     # runs the cron job at 21:00 each Wednesday (after our meetings) UTC Time (23:00 EET)
-         - cron: '00 21 * * 3'
+    # runs the cron job at 21:00 each Wednesday (after our meetings) UTC Time (23:00 EET)
 
+    - cron: '00 21 * * 3'
+    
+        
 
 jobs:
   rename-incorrect-entries:
     runs-on: ubuntu-latest
+
+    container:
+      image: python:3
 
     steps:
       - name: Checkout repository
@@ -21,12 +26,7 @@ jobs:
           #specified as a secret inside the repository
           token: ${{ secrets.AUTOMATION_TOKEN }}
           branch: main
-
-      - name: Install packages
-        run: |
-          cd /home/runner/work/coding-problems/coding-problems/.github/requirements
-          pip install -r packages.txt
-      
+    
       - name: Execute rename_scripts.py and rename_folders.py
         run: |
           cd /home/runner/work/coding-problems/coding-problems/.github/scripts
