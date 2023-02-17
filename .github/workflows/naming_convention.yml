@@ -14,7 +14,7 @@ on:
 
 jobs:
   rename-incorrect-entries:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     container:
       image: python:3
@@ -29,12 +29,15 @@ jobs:
     
       - name: Execute rename_scripts.py and rename_folders.py
         run: |
-          cd /home/runner/work/coding-problems/coding-problems/.github/scripts
+          pwd
+          ls -a
+          cd /coding-problems/.github/scripts
           python3 rename_scripts.py ${{ github.workspace }}    
           python3 rename_folders.py ${{ github.workspace }}
 
       - name: Commit changes
         run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"        
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
