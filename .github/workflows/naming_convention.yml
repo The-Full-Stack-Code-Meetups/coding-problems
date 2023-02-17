@@ -31,7 +31,7 @@ jobs:
         run: |
           pwd
           ls -a
-          cd /coding-problems/.github/scripts
+          cd /.github/scripts
           python3 rename_scripts.py ${{ github.workspace }}    
           python3 rename_folders.py ${{ github.workspace }}
 
