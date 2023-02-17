@@ -23,14 +23,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          #specified as a secret inside the repository
+          # specified as a secret inside the repository
           token: ${{ secrets.AUTOMATION_TOKEN }}
           branch: main
     
       - name: Execute rename_scripts.py and rename_folders.py
         run: |
-          pwd
-          ls -a
           cd .github/scripts
           python3 rename_scripts.py ${{ github.workspace }}    
           python3 rename_folders.py ${{ github.workspace }}
