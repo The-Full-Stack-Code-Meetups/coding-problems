@@ -465,3 +465,29 @@ The array-form of an integer num is an array representing its digits in left to 
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-32/script.py)
 
+<h2>Problem 33</h2>
+This problem was asked Microsoft.
+
+Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-33/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-33/script.py)
+
+<h2>Problem 34</h2>
+
+This problem was asked by Facebook.
+
+Given an array of integers in which two elements appear exactly once and all other elements appear exactly twice, find the two elements that appear only once.
+
+For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The order does not matter.
+
+Follow-up: Can you do this in linear time and constant space?
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-34/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-34/script.py)
+
+
