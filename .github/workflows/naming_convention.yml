@@ -1,7 +1,9 @@
 name: check naming convention
+
 # renames any files or folders that are not following the convention
 # convention for folders --> problem-{digit}
 # convention for files --> script.{file_exention}
+
 on:
   push:
   
