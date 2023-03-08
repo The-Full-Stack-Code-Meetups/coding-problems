@@ -6,3 +6,4 @@ def first_recurring(string):
             return curr_element
     else:
         return None
+    
