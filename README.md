@@ -740,4 +740,40 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-42/script.py)
 
+<h2>Problem 43</h2>
+
+Given two integer arrays pushed and popped each with distinct values, return true if this could have been the result of a sequence of push and pop operations on an initially empty stack, or false otherwise.
+
+Example 1:
+
+```javascript
+Input: pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
+Output: true
+Explanation: We might do the following sequence:
+push(1), push(2), push(3), push(4),
+pop() -> 4,
+push(5),
+pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
+```
+
+Example 2
+
+```javascript
+Input: pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
+Output: false
+Explanation: 1 cannot be popped before 2.
+```
+
+Constraints:
+
+    1 <= pushed.length <= 1000
+    0 <= pushed[i] <= 1000
+    All the elements of pushed are unique.
+    popped.length == pushed.length
+    popped is a permutation of pushed.
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-43/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-43/script.py)
+
 
