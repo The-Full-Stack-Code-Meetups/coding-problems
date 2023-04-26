@@ -32,16 +32,3 @@ def search_insert(nums, target):
     nums.append(target)
     nums.sort()
     return nums.index(target)
-
-
-nums = [1,3,5,6]
-target = 5
-print(search_insert(nums, target))
-
-nums = [1,3,5,6]
-target = 2
-print(search_insert(nums, target))
-
-nums = [1,3,5,6]
-target = 7
-print(search_insert(nums, target))
