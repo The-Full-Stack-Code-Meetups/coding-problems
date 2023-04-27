@@ -776,4 +776,70 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-43/script.py)
 
+<h2>Problem 44</h2>
+
+Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.
+
+Return the sum of the three integers.
+
+You may assume that each input would have exactly one solution.
+
+
+Example 1:
+```javascript
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+```
+Example 2:
+```javascript
+Input: nums = [0,0,0], target = 1
+Output: 0
+Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
+```
+
+```javascript
+Constraints:
+
+    3 <= nums.length <= 500
+    -1000 <= nums[i] <= 1000
+    -104 <= target <= 104
+ ```
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-44/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-44/script.py)
+
+<h2>Problem 45</h2>
+
+Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order. 
+
+Example 1:
+```javascript
+Input: nums = [1,2,3]
+Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+```
+Example 2:
+```javascript
+Input: nums = [0,1]
+Output: [[0,1],[1,0]]
+```
+Example 3:
+```javascript
+Input: nums = [1]
+Output: [[1]]
+```
+ 
+```javascript
+Constraints:
+
+    1 <= nums.length <= 6
+    -10 <= nums[i] <= 10
+    All the integers of nums are unique.
+```
+
+Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-45/script.js)
+<br>
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-45/script.py)
+
 
