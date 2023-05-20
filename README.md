@@ -868,4 +868,122 @@ Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/codin
 <br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-46/script.py)
 
+<h2>Problem 47</h2>
 
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+Example 1:
+
+Input: nums = [1,3,5,6], target = 5
+Output: 2
+Example 2:
+
+Input: nums = [1,3,5,6], target = 2
+Output: 1
+Example 3:
+
+Input: nums = [1,3,5,6], target = 7
+Output: 4
+
+
+Constraints:
+
+1 <= nums.length <= 104
+-104 <= nums[i] <= 104
+nums contains distinct values sorted in ascending order.
+-104 <= target <= 104
+
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-47/script.py)
+
+<h2>Problem 48</h2>
+
+Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.
+Each number in candidates may only be used once in the combination.
+Note: The solution set must not contain duplicate combinations.
+
+Example 1:
+
+Input: candidates = [10,1,2,7,6,1,5], target = 8
+Output:
+[
+[1,1,6],
+[1,2,5],
+[1,7],
+[2,6]
+]
+
+Example 2:
+
+Input: candidates = [2,5,2,1,2], target = 5
+Output:
+[
+[1,2,2],
+[5]
+]
+
+Constraints:
+
+1 <= candidates.length <= 100
+1 <= candidates[i] <= 50
+1 <= target <= 30
+
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-48/script.py)
+
+<h2>Problem 49</h2>
+
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+ 
+
+Example 1:
+
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+Example 2:
+
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transactions are done and the max profit = 0.
+ 
+
+Constraints:
+
+1 <= prices.length <= 105
+0 <= prices[i] <= 104
+
+
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-49/script.py)
+<br>
+Solution for Js: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-49/script.js)
+
+<h2>Problem 50</h2>
+
+Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.
+Return the sum of the three integers.
+
+You may assume that each input would have exactly one solution.
+
+Example 1:
+Input: nums = [-1,2,1,-4], target = 1
+Output: 2
+Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
+
+Example 2:
+Input: nums = [0,0,0], target = 1
+Output: 0
+Explanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).
+
+Constraints:
+    3 <= nums.length <= 500
+    -1000 <= nums[i] <= 1000
+    -104 <= target <= 104
+
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-50/script.py)
