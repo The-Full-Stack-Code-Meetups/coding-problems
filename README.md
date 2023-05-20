@@ -424,7 +424,7 @@ Output: "ZY"
                                                                                                                           
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-29/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-29/script.js)
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-29/script.py)
   
 
 
@@ -450,8 +450,6 @@ The array-form of an integer num is an array representing its digits in left to 
 
  Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-31/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-31/script.py)
-
 
 <h2>Problem 32</h2>
 The array-form of an integer num is an array representing its digits in left to right order.
@@ -461,9 +459,7 @@ The array-form of an integer num is an array representing its digits in left to 
  Ex.: number([1,2,0,0], 34) //["1", "2", "3", "4"]
 
  Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-32/script.js)
-<br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-32/script.py)
-
+ 
 <h2>Problem 33</h2>
 This problem was asked Microsoft.
 
@@ -485,8 +481,6 @@ For example, given the array [2, 4, 6, 8, 10, 2, 6, 10], return 4 and 8. The ord
 
 Follow-up: Can you do this in linear time and constant space?
 
-Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-34/script.js)
-<br>
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-34/script.py)
 
 <h2>Problem 35</h2>
