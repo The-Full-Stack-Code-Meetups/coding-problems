@@ -674,7 +674,6 @@ Follow-up: Can you come up with an algorithm that is less than O(n2) time comple
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-41/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-41/script.py)
 
 <h2>Problem 42</h2>
 
@@ -728,8 +727,6 @@ Constraints:
 
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-42/script.js)
-<br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-42/script.py)
 
 <h2>Problem 43</h2>
 
@@ -799,7 +796,6 @@ Constraints:
 
 Solution for JS: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-44/script.js)
 <br>
-Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-44/script.py)
 
 <h2>Problem 45</h2>
 
