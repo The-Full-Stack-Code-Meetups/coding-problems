@@ -16,7 +16,11 @@ def main(path):
                     if not match:
                         digit_match = re.search('\d+', c_dir)
                         digit = digit_match.group(0)
-                        os.rename(os.path.join(root, c_dir), os.path.join(root, f"problem-{digit}"))
+                        if int(digit) < 10:
+                           rename_string = f"problem-0{digit}"
+                        else:
+                           rename_string = f"problem-{digit}"
+                        os.rename(os.path.join(root, c_dir), os.path.join(root, rename_string))
 
 
 if __name__ == '__main__':
