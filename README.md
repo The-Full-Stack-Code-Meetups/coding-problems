@@ -998,3 +998,18 @@ Constraints:
     -104 <= target <= 104
 
 Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-50/script.py)
+Solution for Js: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-50/script.js)
+
+<h2>Problem 51</h2>
+
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-51/script.py)
+<br>
+Solution for Js: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-51/script.js)
+
+<h2>Problem 52</h2>
+
+Solution for Py: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/python/problem-52/script.py)
+<br>
+Solution for Js: [Solution](https://github.com/The-Full-Stack-Code-Meetups/coding-problems/blob/main/js/problem-52/script.js)
+
+
